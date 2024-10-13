@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  display: flex;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.login-page {
+  margin: auto;
+  text-align: center;
+}
+
+.login-page input {
+  padding: 10px;
+  width: 200px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.login-page button {
+  padding: 10px;
+  background-color: #007aff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.login-page button:hover {
+  background-color: #005bb5;
+}
+
+.chat-app {
+  display: flex;
+  width: 100%;
+}
+
+/* Sidebar, chat area, and other styles remain the same as before */
